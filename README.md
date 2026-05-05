@@ -16,3 +16,15 @@ A RESTful API for tracking space missions, astronauts, and rockets.
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+3. Install dependencies:
+
+bash
+pip install -r requirements.txt
+Run the server:
+
+bash
+python main.py
+Open API documentation:
+
+text
+http://localhost:8000/docs
